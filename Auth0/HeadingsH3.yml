@@ -1,0 +1,30 @@
+extends: capitalization
+message: "'%s' should use sentence-style capitalization."
+level: error
+scope: heading.h3
+match: $sentence
+exceptions:
+  - API
+  - APIs
+  - Auth0
+  - Azure
+  - CLI
+  - Code
+  - Cosmos
+  - Docker
+  - Emmet
+  - GitHub
+  - I
+  - JWT
+  - Kubernetes
+  - Linux
+  - macOS
+  - Marketplace
+  - MongoDB
+  - REPL
+  - Studio
+  - TypeScript
+  - URLs
+  - Visual
+  - VS
+  - Windows

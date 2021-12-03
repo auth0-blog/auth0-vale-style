@@ -1,0 +1,32 @@
+extends: capitalization
+message: "'%s' should use Chicago-style capitalization (https://capitalizemytitle.com/style/Chicago/)."
+link: https://capitalizemytitle.com/style/Chicago/
+level: error
+scope: heading.h2
+match: $title
+style: Chicago
+exceptions:
+  - API
+  - APIs
+  - Auth0
+  - Azure
+  - CLI
+  - Code
+  - Cosmos
+  - Docker
+  - Emmet
+  - GitHub
+  - I
+  - JWT
+  - Kubernetes
+  - Linux
+  - macOS
+  - Marketplace
+  - MongoDB
+  - REPL
+  - Studio
+  - TypeScript
+  - URLs
+  - Visual
+  - VS
+  - Windows

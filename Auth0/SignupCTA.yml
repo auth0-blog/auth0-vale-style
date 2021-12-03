@@ -1,0 +1,10 @@
+extends: existence
+message: "You should format properly '%s' to track signups"
+link: https://auth0team.atlassian.net/wiki/spaces/CON/pages/2603123052/Call+To+Action+CTA
+level: error
+ignorecase: true
+scope: raw
+nonword: true
+tokens:
+  - '\[.+]\(https://auth0.com/signup[/]?\)'
+  - '<https://auth0.com/signup[/]?>'

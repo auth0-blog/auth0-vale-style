@@ -1,0 +1,6 @@
+extends: capitalization
+message: "'%s' should use sentence-style capitalization."
+link: https://docs.microsoft.com/en-us/style-guide/capitalization
+level: error
+scope: sentence
+match: ([A-Z].*)

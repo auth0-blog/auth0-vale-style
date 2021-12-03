@@ -1,0 +1,20 @@
+extends: substitution
+message: "Consider using '%s' instead of '%s'."
+link: 'https://developers.google.com/style/inclusive-documentation'
+ignorecase: true
+level: warning
+swap:
+  black hat:                                malicious hacker
+  blacklists?:                              DenyList
+  brown-bag lunch:                          lunch and learn
+  crazy:                                    wild, amazing, unusual, passionate
+  dummy values?:                            placeholder value or sample value 
+  grandfathered:                            legacy
+  guys:                                     folks or people or team
+  man hours:                                person hours, engineer hours
+  man[\s-]in[\s-]the[\s-]middle:            person in the middle
+  master:                                   main
+  sanity check:                             confidence check
+  slave:                                    secondary
+  white hat:                                ethical hacker
+  whitelists?:                              AllowList
