@@ -16,7 +16,9 @@ exceptions:
   - Docker
   - Emmet
   - GitHub
+  - gRPC
   - I
+  - JavaScript
   - JWT
   - Kubernetes
   - Linux

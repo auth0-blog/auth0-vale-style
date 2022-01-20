@@ -4,6 +4,8 @@ level: error
 scope: heading.h3
 match: $sentence
 exceptions:
+  - Action
+  - Actions
   - API
   - APIs
   - Auth0
@@ -14,14 +16,24 @@ exceptions:
   - Docker
   - Emmet
   - GitHub
+  - gRPC
+  - Hook
+  - Hooks
   - I
+  - JavaScript
   - JWT
   - Kubernetes
   - Linux
   - macOS
   - Marketplace
+  - Microsoft
   - MongoDB
+  - Node
+  - Node.js
+  - React
   - REPL
+  - Rule
+  - Rules
   - Studio
   - TypeScript
   - URLs
